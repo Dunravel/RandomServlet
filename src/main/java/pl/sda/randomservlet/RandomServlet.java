@@ -19,7 +19,7 @@ public class RandomServlet extends HttpServlet {
         Random random = new Random();
         int[] numbers = new int[5];
         for(int i = 0; i < 5; i++){
-            numbers[i] = random.nextInt(249)+51;
+            numbers[i] = random.nextInt(250)+51;
         }
 
         PrintWriter writer = response.getWriter();
